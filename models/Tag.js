@@ -4,6 +4,7 @@ const sequelize = require('../config/connection.js');
 
 class Tag extends Model {}
 
+// 'Tag' database model set up to include an id and tag_name.
 Tag.init(
   {
     id: {
@@ -14,7 +15,7 @@ Tag.init(
     },
     tag_name: {
       type: DataTypes.STRING,
-    }
+    },
   },
   {
     sequelize,

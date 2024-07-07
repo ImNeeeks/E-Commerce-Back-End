@@ -4,6 +4,7 @@ const sequelize = require('../config/connection');
 
 class ProductTag extends Model {}
 
+// 'ProductTag' database model is set up to include an id, product_id and tag_id.
 ProductTag.init(
   {
     id: {
@@ -12,18 +13,18 @@ ProductTag.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    tag_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'tag',
-        key: 'id',
-      },
-    },
     product_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'product',
-        key: 'id',
+        key: 'id'
+      },
+    },
+    tag_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'tag',
+        key: 'id'
       },
     },
   },
