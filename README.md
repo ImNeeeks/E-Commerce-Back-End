@@ -47,7 +47,7 @@ Then, you can run the server locally by entering the following:
 
 5. `node server.js`.
 
-6. If everything was installed and run correctly, you should be able to test the API routes using Insomnia now. Check the [walkthrough video here to see how you can view, add, update or delete data using these routes.](https://drive.google.com/file/d/1D7nRzpqfr_UDCUnRjjz2lHXoTKn9T6tn/view?usp=sharing)
+6. If everything was installed and run correctly, you should be able to test the API routes using Insomnia now. Check my [walkthrough video here to see how you can view, add, update or delete data using these routes.](https://drive.google.com/file/d/1D7nRzpqfr_UDCUnRjjz2lHXoTKn9T6tn/view?usp=sharing)
             
 ## License
             
